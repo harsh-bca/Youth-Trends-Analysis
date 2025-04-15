@@ -1,7 +1,6 @@
 # Youth Trends Analysis 📊
 
 An end-to-end data analysis project that explores the behaviors, interests, and aspirations of Gen Z youth in India. Built using real survey data, Python, SQL, Power BI, and insightful visual storytelling.
-
 ---
 
 ## 🔍 Project Overview
@@ -33,10 +32,10 @@ This project analyzes youth trends with a focus on:
 - **Window Task Scheduler** (to automate the insertion of data from google sheet to database)
 
 ---
+## 📈 Visualizations
 
-## 📊 Dashboard Preview
-
-> Coming soon: [Click here to view screenshots of the Power BI dashboard](assets/dashboard_preview.png)
+Explore insights via the Power BI dashboard:  
+👉 [Download Power BI File](./youth%20trends%20analysis.pbix
 
 ---
 

@@ -35,7 +35,7 @@ This project analyzes youth trends with a focus on:
 ## 📈 Visualizations
 
 Explore insights via the Power BI dashboard:  
-👉 [Download Power BI File](./youth%20trends%20analysis.pbix
+👉 [Download Power BI File](./youth%20trends%20analysis.pbix)
 
 ---
 

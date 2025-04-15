@@ -1,24 +1,57 @@
-# harsh-bca.github.io
-# Youth Trends Analysis
+# Youth Trends Analysis 📊
 
-This project analyzes youth trends based on survey data from 2025. It explores topics such as:
+An end-to-end data analysis project that explores the behaviors, interests, and aspirations of Gen Z youth in India. Built using real survey data, Python, SQL, Power BI, and insightful visual storytelling.
 
-- Social media usage vs. mental health
-- Financial habits and career aspirations
-- Gender-based preferences and trends
+---
 
-## Technologies Used
-- Python (Pandas, Matplotlib, Seaborn)
-- Power BI
-- MySQL
-- Git & GitHub
+## 🔍 Project Overview
 
-## How to Run the Project
-1. Clone this repository
-2. Open the Power BI file or run the Python scripts
-3. View the analysis and dashboards
+This project analyzes youth trends with a focus on:
+- **Social media usage vs. mental health**
+- **Financial habits & investment behavior**
+- **Career aspirations and work environment preferences**
+- **Marriage preferences by gender and occupation**
+- **Sentiment analysis on career choices**
 
-## Project Insights
-- Male vs. female mental health patterns
-- Money management by occupation
-- Career aspiration sentiment analysis
+---
+
+## 📁 Files Included
+
+- `data/` – Raw survey data files
+- `powerbi/` – Power BI `.pbix` dashboard file
+- `assets/` – Visuals and screenshots for the report
+- `README.md` – Project documentation (you’re reading it!)
+
+---
+
+## 💡 Tools & Skills Used
+
+- **Python** (pandas, matplotlib, seaborn)
+- **SQL** (MySQL queries for slicing and aggregating survey data)
+- **Power BI** (interactive dashboard with slicers and insights)
+- **Excel** (data cleaning and formatting)
+- **Window Task Scheduler** (to automate the insertion of data from google sheet to database)
+
+---
+
+## 📊 Dashboard Preview
+
+> Coming soon: [Click here to view screenshots of the Power BI dashboard](assets/dashboard_preview.png)
+
+---
+
+## 🙋‍♂️ About Me
+
+**Harsh Tripathi**  
+Aspiring Data Analyst | Python | SQL | Power BI | BCA Student at GNIOT
+
+- 📧 harsh.tripati21@gmail.com  
+- 🌐 [Portfolio Website](https://harsh-bca.github.io)  
+- 💼 [LinkedIn Profile](https://www.linkedin.com/in/harsh-tripathi-64376333a)
+
+---
+
+## ⭐ Feedback
+
+If you liked this project or found it useful, please consider giving it a ⭐ on [GitHub](https://github.com/harsh-bca/Youth-Trends-Analysis)!
+

@@ -1,0 +1,47 @@
+name: Universal Workflow - Youth Trends Analysis
+
+on:
+  push:
+    paths:
+      - '**.py'
+      - '**.pbix'
+  workflow_dispatch:
+
+jobs:
+  universal-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repo
+        uses: actions/checkout@v3
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: 📦 Install dependencies (if any)
+        run: |
+          if [ -f requirements.txt ]; then
+            echo "Installing from requirements.txt..."
+            pip install -r requirements.txt
+          else
+            echo "✅ No requirements.txt file found, skipping dependency install."
+          fi
+
+      - name: 🚀 Run Python script (if exists)
+        run: |
+          if [ -f insert_data.py ]; then
+            echo "Running insert_data.py..."
+            python insert_data.py
+          else
+            echo "⚠️ No insert_data.py script found, skipping script run."
+          fi
+
+      - name: 📁 List Power BI files
+        run: |
+          echo "Listing .pbix files in repo..."
+          find . -name "*.pbix" || echo "No .pbix files found."
+
+      - name: ✅ Workflow completed
+        run: echo "🎉 All tasks finished! Youth Trends Analysis is up-to-date."

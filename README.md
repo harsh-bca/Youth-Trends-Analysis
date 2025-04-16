@@ -38,10 +38,11 @@ This project analyzes youth trends with a focus on:
 Explore insights via the Power BI dashboard:  
 👉 [Download Power BI File](./dashboards/youth_trends_analysis.pbix)
 
-## 🔥 Dashboard Preview
+## 🔥 Dashboard Previews
 
-![Dashboard Screenshot](.assets/dashboard_preview_1.png)
-![Dashboard Screenshot](.assets/dashboard_preview_2.png)
+[![Dashboard Preview 1](https://raw.githubusercontent.com/harsh-bca/Youth-Trends-Analysis/main/assets/dashboard_preview%20_1.png)](https://raw.githubusercontent.com/harsh-bca/Youth-Trends-Analysis/main/assets/dashboard_preview%20_1.png)
+
+[![Dashboard Preview 2](https://raw.githubusercontent.com/harsh-bca/Youth-Trends-Analysis/main/assets/dashboard_preview_2.png)](https://raw.githubusercontent.com/harsh-bca/Youth-Trends-Analysis/main/assets/dashboard_preview_2.png)
 
 ---
 

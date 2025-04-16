@@ -40,8 +40,8 @@ Explore insights via the Power BI dashboard:
 
 ## 🔥 Dashboard Preview
 
-![Dashboard Screenshot](.assets/dashboard_preview_1.jpg)
-![Dashboard Screenshot](.assets/dashboard_preview_2.jpg)
+![Dashboard Screenshot](.assets/dashboard_preview_1.png)
+![Dashboard Screenshot](.assets/dashboard_preview_2.png)
 
 ---
 

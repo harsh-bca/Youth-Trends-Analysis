@@ -17,6 +17,7 @@ This project analyzes youth trends with a focus on:
 ## 📁 Files Included
 
 - `data/` – Raw survey data files
+- `scripts/`- All scripts used in this project
 - `powerbi/` – Power BI `.pbix` dashboard file
 - `assets/` – Visuals and screenshots for the report
 - `README.md` – Project documentation (you’re reading it!)

@@ -3,24 +3,25 @@ name: Run Python Script
 on:
   push:
     paths:
-      - '**.py'
-  workflow_dispatch:
+      - '**.py'  # Trigger workflow when any Python file is pushed
+  workflow_dispatch:  # Allows manual trigger of the workflow
 
 jobs:
   run-script:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # Use the latest Ubuntu runner
+
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3  # Checkout the repository code
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v4  # Set up the desired Python version
         with:
-          python-version: 3.10
+          python-version: 3.10  # Specify Python version to use
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt || echo "No requirements.txt found"
+          pip install -r requirements.txt || echo "No requirements.txt found"  # Install dependencies from requirements.txt
 
       - name: Run script
-        run: python insert_data.py
+        run: python insert_data.py  # Run your Python script

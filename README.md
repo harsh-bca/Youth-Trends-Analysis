@@ -40,7 +40,7 @@ Explore insights via the Power BI dashboard:
 
 ## 🔥 Dashboard Previews
 
-[![Dashboard Preview 1](https://raw.githubusercontent.com/harsh-bca/Youth-Trends-Analysis/main/assets/dashboard_preview%20_1.png)](https://raw.githubusercontent.com/harsh-bca/Youth-Trends-Analysis/main/assets/dashboard_preview%20_1.png)
+[![Dashboard Preview 1](https://github.com/harsh-bca/portfolio-assets/blob/main/dashboard%20ss.png)](https://raw.githubusercontent.com/harsh-bca/portfolio-assets/blob/main/assets/dashboard%20ss.png)
 
 [![Dashboard Preview 2](https://raw.githubusercontent.com/harsh-bca/Youth-Trends-Analysis/main/assets/dashboard_preview_2.png)](https://raw.githubusercontent.com/harsh-bca/Youth-Trends-Analysis/main/assets/dashboard_preview_2.png)
 
